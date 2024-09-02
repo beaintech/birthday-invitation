@@ -13,9 +13,9 @@ function FoodDetails() {
       <button className="toggle-button" onClick={handleButtonClick}>
         {showDetails ? 'Click to Close the Food Menu' : 'Click to Open the Food Menu'}
         {!showDetails && (
-        <div className="arrow-animation">
+        <span className="arrow-animation">
           <span className="down-arrow">👇</span>
-        </div>
+        </span>
       )}
       </button>
 

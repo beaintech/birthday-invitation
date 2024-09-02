@@ -12,12 +12,12 @@ function FoodDetailsGerman() {
     <div className="food-details-container">
       <button className="toggle-button" onClick={handleButtonClick}>
         {showDetails ? 'Klicken, um das Menü zu schließen' : 'Klicken, um das Menü zu öffnen'}
-      </button>
-      {!showDetails && (
-        <div className="arrow-animation">
+        {!showDetails && (
+        <span className="arrow-animation">
           <span className="down-arrow">👇</span>
-        </div>
+        </span>
       )}
+      </button>
       {showDetails && (
         <div className="food-details">
           <h2>🍲 Hotpot</h2>
