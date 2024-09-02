@@ -51,7 +51,7 @@ function App() {
                 <p><strong>📍 Location:</strong> Oststraße 39</p>
               </div>
               <p>
-              This is a small, intimate affair, and I’d love to share this special day with you. Because I need to prepare food according to how many guests will come, <strong>please let me know if you will join by 13th September, 2 days in advance</strong>, so I can ensure everything is just perfect.
+              This is a small, intimate affair, and I’d love to share this special day with you. Because I need to prepare food according to how many guests will come, <strong>please let me know if you will join by 12th September, 2 days in advance</strong>, so I can ensure everything is just perfect.
               </p>
               <p>Looking forward to a cozy evening together.</p>
               <p>Warmest regards,</p>
@@ -73,7 +73,7 @@ function App() {
             <p><strong>📍 Ort:</strong> Oststraße 39</p>
           </div>
           <p>
-          Dies ist eine kleine, intime Veranstaltung, und ich würde mich freuen, diesen besonderen Tag mit dir zu teilen. Da ich das Essen nach der Anzahl der Gäste vorbereiten muss,<strong>gib mir bitte bis zum 13. September, 2 Tage im Voraus</strong>, Bescheid, ob du kommst, damit ich sicherstellen kann, dass alles perfekt ist.
+          Dies ist eine kleine, intime Veranstaltung, und ich würde mich freuen, diesen besonderen Tag mit dir zu teilen. Da ich das Essen nach der Anzahl der Gäste vorbereiten muss,<strong>gib mir bitte bis zum 12. September, 2 Tage im Voraus</strong>, Bescheid, ob du kommst, damit ich sicherstellen kann, dass alles perfekt ist.
           </p>
           <FoodDetailsGerman />
 
