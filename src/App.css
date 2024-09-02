@@ -63,6 +63,24 @@ strong {
   color: #0073e6; /* Mario blue */
 }
 
+.language-toggle-button {
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 20px;
+  background-color: #00cc66;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 2px 2px #000000;
+  margin-left: 10px;
+}
+
+.language-toggle-button:hover {
+  background-color: #00994c;
+}
+
 @media (max-width: 600px) {
   .App {
     width: 95%;

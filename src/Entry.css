@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ff69b4; /* Mario sky blue background */
-    padding: 20px;
+    background-color: #87CEEB; /* Mario sky blue background */
+    padding: 5px;
   }
   
   .video-wrapper {
-    width: 80%;
-    max-width: 1000px;
+    width: 92%;
+    max-width: 1200px;
     border: 6px solid #ffcc00; /* Matching the main invitation style */
     border-radius: 10px;
     overflow: hidden;
@@ -43,4 +43,27 @@
     color: white;
 
   }
+
+  .details-below-video {
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
   
+  .back-button {
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  .back-button:hover {
+    background-color: #cc0000;
+  }
