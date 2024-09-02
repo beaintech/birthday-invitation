@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//beaintech.github.io/birthday-invitation/static/css/main.6d3c643b.css",
+    "main.js": "//beaintech.github.io/birthday-invitation/static/js/main.c6a8eaeb.js",
+    "static/js/453.397254e6.chunk.js": "//beaintech.github.io/birthday-invitation/static/js/453.397254e6.chunk.js",
+    "static/media/bea Birthday.mp4": "//beaintech.github.io/birthday-invitation/static/media/bea Birthday.4f3dd0e59542240b99db.mp4",
+    "index.html": "//beaintech.github.io/birthday-invitation/index.html",
+    "main.6d3c643b.css.map": "//beaintech.github.io/birthday-invitation/static/css/main.6d3c643b.css.map",
+    "main.c6a8eaeb.js.map": "//beaintech.github.io/birthday-invitation/static/js/main.c6a8eaeb.js.map",
+    "453.397254e6.chunk.js.map": "//beaintech.github.io/birthday-invitation/static/js/453.397254e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d3c643b.css",
+    "static/js/main.c6a8eaeb.js"
+  ]
+}
