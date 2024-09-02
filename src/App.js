@@ -68,7 +68,7 @@ function App() {
               Begleite mich auf eine kulinarische Reise, bei der wir Gerichte wie reichhaltiges und geschmackvolles Hotpot, zarte Dim Sum und einige weitere Überraschungen genießen werden, die deinen Gaumen erfreuen werden.
               </p>
               <div className="details">
-              <p><strong>📅 Datum:</strong> 13.09.2024</p>
+              <p><strong>📅 Datum:</strong> 14.09.2024</p>
             <p><strong>🕒 Zeit:</strong> 15:00/3pm</p>
             <p><strong>📍 Ort:</strong> Oststraße 39</p>
           </div>
