@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/birthday-invitation/static/css/main.6d3c643b.css",
-    "main.js": "/birthday-invitation/static/js/main.d1b7e849.js",
+    "main.css": "/birthday-invitation/static/css/main.23e11b00.css",
+    "main.js": "/birthday-invitation/static/js/main.2b34f586.js",
     "static/js/453.397254e6.chunk.js": "/birthday-invitation/static/js/453.397254e6.chunk.js",
-    "static/media/bea Birthday.mp4": "/birthday-invitation/static/media/bea Birthday.4f3dd0e59542240b99db.mp4",
+    "static/media/video.mp4": "/birthday-invitation/static/media/video.0ba7aeca8b893ec5ece1.mp4",
     "index.html": "/birthday-invitation/index.html",
-    "main.6d3c643b.css.map": "/birthday-invitation/static/css/main.6d3c643b.css.map",
-    "main.d1b7e849.js.map": "/birthday-invitation/static/js/main.d1b7e849.js.map",
+    "main.23e11b00.css.map": "/birthday-invitation/static/css/main.23e11b00.css.map",
+    "main.2b34f586.js.map": "/birthday-invitation/static/js/main.2b34f586.js.map",
     "453.397254e6.chunk.js.map": "/birthday-invitation/static/js/453.397254e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3c643b.css",
-    "static/js/main.d1b7e849.js"
+    "static/css/main.23e11b00.css",
+    "static/js/main.2b34f586.js"
   ]
 }
