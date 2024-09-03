@@ -28,7 +28,7 @@ function App() {
       ) : (
         <header className="App-header">
          <button className="back-button" onClick={handleBackButtonClick}>
-             Go Back to Video
+         {isGerman ? 'Zurück zu Video' : 'Go Back to Video'}
           </button>
           <button className="language-toggle-button" onClick={toggleLanguage}>
             {isGerman ? 'Switch to English' : 'Zur deutschen wechseln'}
