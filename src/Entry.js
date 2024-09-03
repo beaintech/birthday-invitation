@@ -53,7 +53,7 @@ function Entry({ onButtonClick }) {
         <p><strong>📍 Location:</strong> Oststraße 39, 40211</p>
       </div>
       <button className="entry-button" onClick={onButtonClick}>
-        Click to Enter Invitation
+        Enter Invitation
       </button>
     </div>
   );

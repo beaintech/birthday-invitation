@@ -5,6 +5,7 @@ body {
   background-color: #87CEEB; /* Sky blue background like in Mario games */
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .App {
@@ -100,7 +101,8 @@ strong {
 
 @media (max-width: 600px) {
   .App {
-    width: 95%;
+    margin: 0 auto;
+    width: 85%;
   }
 
   h1 {

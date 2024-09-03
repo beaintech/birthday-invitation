@@ -28,7 +28,7 @@ function App() {
         <header className="App-header">
   
           <button className="language-toggle-button" onClick={toggleLanguage}>
-            {isGerman ? 'Switch to English' : 'Zur deutschen Version wechseln'}
+            {isGerman ? 'Switch to English' : 'Zur deutschen wechseln'}
           </button>
 
           {!isGerman ? (
