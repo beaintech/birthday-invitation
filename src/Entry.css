@@ -1,4 +1,3 @@
-/* src/Entry.css */
 .entry-container {
   display: flex;
   flex-direction: column;
@@ -6,18 +5,17 @@
   justify-content: center;
   height: 100vh;
   background-color: #87CEEB; /* Mario sky blue background */
-  padding: 10px; /* Reduced padding */
+  padding: 20px; /* Reduced padding */
 }
 
 .video-wrapper {
   position: relative;
   width: 100%;
-  max-width: 1200px; /* Set the video to a max width of 1400px */
-  border: 6px solid #ffcc00; /* Matching the main invitation style */
+  max-width: 1300px; /* Set the video to a max width of 1400px */
+  border: 10px solid #ffcc00; /* Matching the main invitation style */
   border-radius: 10px;
   overflow: hidden;
   background-color: #ff69b4; /* Pink background similar to Princess Peach's color in Mario games */
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .cover-video {
@@ -29,7 +27,7 @@
 .play-button {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 48%;
   transform: translate(-10%, -10%);
   background-color: #ffcc00;
   color: #ffffff;
@@ -37,7 +35,7 @@
   border-radius: 10px;
   padding: 10px;
   font-family: 'Press Start 2P', cursive;
-  font-size: 18px;
+  font-size: 28px;
   cursor: pointer;
   box-shadow: 3px 3px #ff6600;
   text-align: center;
@@ -81,28 +79,28 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 .play-button {
-  font-size: 12px;
+  font-size: 20px;
   top: 45%;
   left: 45%;
-  padding: 4px;
+  padding: 8px;
   border: 3px solid #ff6600;
 }
 
 .entry-container {
-  padding: 2px;
+  padding: 0px;
 }
+
 .video-wrapper {
   border: 4px solid #ffcc00; /* Matching the main invitation style */
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .play-button {
-    font-size: 8px;
-    left: 42%;
-    padding: 4px;
+    font-size: 16px;
+    left: 44%;
    border: 2px solid #ff6600;
   }
  }

@@ -10,8 +10,8 @@ function FoodDetails() {
 
   return (
     <div className="food-details-container">
-      <button className="toggle-button" onClick={handleButtonClick}>
-        {showDetails ? 'Close the Food Menu☝️' : 'Open the Food Menu👇'}
+      <button className="menu-button" onClick={handleButtonClick}>
+        {showDetails ? 'Close the Food Menu' : 'Open the Food Menu'}
         {!showDetails && (
         <div className="arrow-animation">
           <span className="down-arrow">🥟🍜🍲🥠</span>

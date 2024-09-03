@@ -43,7 +43,7 @@ function Entry({ onButtonClick }) {
         </video>
         {!isPlaying && (
           <button className="play-button" onClick={handlePlayButtonClick}>
-            👑 Play
+            Play
           </button>
         )}
       </div>

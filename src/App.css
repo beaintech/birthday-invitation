@@ -39,7 +39,7 @@ h1 {
 
 p {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #000000;
   margin-bottom: 15px;
 }
@@ -103,6 +103,7 @@ strong {
   .App {
     margin: 0 auto;
     width: 85%;
+    padding: 10px;
   }
 
   h1 {
