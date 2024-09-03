@@ -26,9 +26,7 @@ function App() {
         <Entry onButtonClick={handleEntryButtonClick} />
       ) : (
         <header className="App-header">
-          <button className="back-button" onClick={handleBackButtonClick}>
-            Go Back to Video
-          </button>
+  
           <button className="language-toggle-button" onClick={toggleLanguage}>
             {isGerman ? 'Switch to English' : 'Zur deutschen Version wechseln'}
           </button>
@@ -47,7 +45,7 @@ function App() {
 
               <div className="details">
                 <p><strong>📅 Date:</strong> 14.09.2024</p>
-                <p><strong>🕒 Time:</strong> 15:00/3pm</p>
+                <p><strong>🕒 Time:</strong> 16:00/4pm</p>
                 <p><strong>📍 Location:</strong> Oststraße 39</p>
               </div>
               <p>
@@ -56,7 +54,10 @@ function App() {
               <p>Looking forward to a cozy evening together.</p>
               <p>Warmest regards,</p>
               <p><strong>Bea</strong></p>
-                          </>
+              <button className="back-button" onClick={handleBackButtonClick}>
+            Go Back to Video
+          </button>
+             </>
             ) : (
               <>
               <h1>🌟 Exklusive Einladung 🌟</h1>
@@ -69,7 +70,7 @@ function App() {
               </p>
               <div className="details">
               <p><strong>📅 Datum:</strong> 14.09.2024</p>
-            <p><strong>🕒 Zeit:</strong> 15:00/3pm</p>
+            <p><strong>🕒 Zeit:</strong> 16:00/4pm</p>
             <p><strong>📍 Ort:</strong> Oststraße 39</p>
           </div>
           <p>
@@ -80,7 +81,10 @@ function App() {
           <p>Ich freue mich auf einen gemütlichen Abend zusammen.</p>
           <p>Herzliche Grüße,</p>
           <p><strong>Bea</strong></p>
-            </>
+          <button className="back-button" onClick={handleBackButtonClick}>
+            Go Back to Video
+          </button>
+          </>
           )}
         </header>
       )}

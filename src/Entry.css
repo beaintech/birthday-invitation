@@ -1,69 +1,81 @@
 /* src/Entry.css */
 .entry-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #87CEEB; /* Mario sky blue background */
-    padding: 5px;
-  }
-  
-  .video-wrapper {
-    width: 92%;
-    max-width: 1200px;
-    border: 6px solid #ffcc00; /* Matching the main invitation style */
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #87CEEB; /* Pink background similar to Princess Peach's color in Mario games */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .cover-video {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .entry-button {
-    margin-top: 20px;
-    font-family: 'Press Start 2P', cursive;
-    padding: 15px 30px;
-    background-color: #ffcc00;
-    color: #cc0000;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 2px 2px #000000;
-  }
-  
-  .entry-button:hover {
-    background-color: #cc0000;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #87CEEB; /* Mario sky blue background */
+  padding: 10px; /* Reduced padding */
+}
 
-  }
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Set the video to a max width of 1400px */
+  border: 6px solid #ffcc00; /* Matching the main invitation style */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ff69b4; /* Pink background similar to Princess Peach's color in Mario games */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
 
-  .details-below-video {
-    margin-top: 20px;
-    color: #000;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-  }
-  
-  .back-button {
-    margin-bottom: 20px;
-    font-family: 'Press Start 2P', cursive;
-    padding: 10px 20px;
-    background-color: #0073e6;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 2px 2px #000000;
-  }
-  
-  .back-button:hover {
-    background-color: #cc0000;
-  }
+.cover-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcc00;
+  color: #ffffff;
+  border: 4px solid #ff6600;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 3px 3px #ff6600;
+  text-align: center;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10; /* Ensure the button is above the video */
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px #ff3300;
+}
+
+.play-button:active {
+  transform: scale(1.05);
+  box-shadow: 2px 2px #ff3300;
+}
+
+.details-below-video {
+  margin-top: 20px;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.entry-button {
+  margin-top: 20px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 15px 30px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 2px 2px #000000;
+}
+
+.entry-button:hover {
+  background-color: #cc0000;
+}
