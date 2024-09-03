@@ -47,7 +47,7 @@ function App() {
               <FoodDetails />
               <div className="details">
                 <p><strong>📅 Date:</strong> 14.09.2024</p>
-                <p><strong>🕒 Time:</strong> 16:00/4pm</p>
+                <p><strong>🕒 Time:</strong> 15:00/3pm</p>
                 <p><strong>📍 Location:</strong> Oststraße 39</p>
               </div>
               <BringItems />
@@ -73,7 +73,7 @@ function App() {
           <FoodDetailsGerman />
              <div className="details">
               <p><strong>📅 Datum:</strong> 14.09.2024</p>
-              <p><strong>🕒 Zeit:</strong> 16:00/4pm</p>
+              <p><strong>🕒 Zeit:</strong> 15:00/3pm</p>
               <p><strong>📍 Ort:</strong> Oststraße 39</p>
             </div>
           <BringItems />
