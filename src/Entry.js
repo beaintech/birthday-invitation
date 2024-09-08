@@ -49,7 +49,7 @@ function Entry({ onButtonClick }) {
       </div>
       <div className="details-below-video">
         <p><strong>📅 Date:</strong> 14.09.2024</p>
-        <p><strong>🕒 Time:</strong> 15:00/3pm</p>
+        <p><strong>🕒 Time:</strong> 16:00/4pm</p>
         <p><strong>📍 Location:</strong> Oststraße 39, 40211</p>
       </div>
       <button className="entry-button" onClick={onButtonClick}>
